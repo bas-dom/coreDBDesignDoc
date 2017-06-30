@@ -1,6 +1,3 @@
 # 历史曲线模块
-
-历史曲线模块一共分为 `ChartView.js` 、`ConfigModalView.js`、`PointListView.js` 、`HistoryView.js`  4个组件。 分别代表了历史曲线的历史曲线显示页面、配置规则窗口、选取项目中所有点位的窗口和结合其他三个组件的父组件。
-
-`HistoryView.js`作为父组件，将数据分发给子组件。`ChartView.js`使用`echarts-for-react`库，将选择的点位在一段时间内的点值通过图标的形式显示出来。`ConfigModalView.js`是一个配置逻辑的组件，程序根据你输入的时间范围，间隔时间生成不同的图表。`PointListView.js`这个组件主要显示项目中的点位，可供用户筛选点位。
-
+历史曲线主要使用了antd的一些通用UI组件作为展示页面，用户可以通过`PointList`组件获取到所有项目点位。然后通过`/get_history_data_padded`接口获取到数据，并且使用`eacharts-for-react`这个库将数据绘制成图表显示在页面上。
+配置功能，分为开始时间、结束时间和采样间隔三个逻辑，生成不同的图表。
