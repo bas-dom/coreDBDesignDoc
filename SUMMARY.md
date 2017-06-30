@@ -14,3 +14,5 @@
     * [历史曲线模块](module-design/historyCurve.md)
     * [用户交互模块](module-design/interaction.md)
     * [操作记录模块](module-design/operatingRecord.md)
+* [数据库设计](data-base/README.md)
+    
