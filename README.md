@@ -14,6 +14,10 @@ OM-Site经过概要设计评估，选用React+redux+antd Design+webpack库作为
 
 后台使用python Flask Restful API框架，生产环境中采用gunicorn + nginx优化并发性能。
 
+
+
+## 详细设计代码逻辑设计综述 ##
+
 经过详细规划后，系统代码模块分为以下部分：
 
 1. common公共库
