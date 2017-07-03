@@ -1,13 +1,13 @@
 # Summary
 
-* [Introduction](README.md)
+* [综述](README.md)
 * [引言](introduction/READMY.md)
     * [编写目的](introduction/purpose.md)
     * [术语表](introduction/terminology.md)
 * [全局数据结构说明](data-structure/READMY.md)
     * [常量](data-structure/constant.md)
     * [变量](data-structure/variable.md)
-* [模块设计](module-design/READMY.md)
+* [模块设计](module-design/README.md)
     * [用户登录模块](module-design/login.md)
     * [用户管理模块](module-design/userManange.md)
     * [报警功能模块](module-design/warning.md)
